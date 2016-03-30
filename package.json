@@ -1,0 +1,14 @@
+{
+  "name": "@nicktomlin/about",
+  "version": "1.0.0",
+  "description": "Programmatic access to information about me",
+  "main": "index.js",
+  "scripts": {
+    "test": "jsonlint about.json && node test.js"
+  },
+  "author": "Nick Tomlin <nick.tomlin@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "jsonlint": "^1.6.2"
+  }
+}
